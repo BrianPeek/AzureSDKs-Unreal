@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "5.1.1",
+	"FriendlyName": "Azure Storage",
+	"Description": "Use the Azure Storage SDK in Unreal",
+	"Category": "Other",
+	"CreatedBy": "Brian Peek",
+	"CreatedByURL": "https://aka.ms/unreal-storage-source",
+	"DocsURL": "https://aka.ms/unreal-storage-docs",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AzureStorage",
+			"Type": "Runtime",
+			"LoadingPhase": "None",
+			"WhitelistPlatforms": [
+				"Win32",
+				"Win64"
+			]
+		}
+	]
+}
