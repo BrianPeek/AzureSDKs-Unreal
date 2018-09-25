@@ -44,6 +44,7 @@ public class AzureStorage : ModuleRules
 		PublicDefinitions.Add("CPPREST_FORCE_PPLX=0");
 #else
 		Definitions.Add("_NO_WASTORAGE_API");
+		Definitions.Add("CPPREST_FORCE_PPLX=0");
 #endif
 
 		PublicAdditionalLibraries.AddRange(new string[]

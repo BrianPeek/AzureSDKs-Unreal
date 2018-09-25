@@ -5,9 +5,10 @@ using System.Collections.Generic;
 
 public class StorageDemoTarget : TargetRules
 {
-    public StorageDemoTarget(TargetInfo Target) : base(Target)
+	public StorageDemoTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		ExtraModuleNames.Add("StorageDemo");
+		bForceEnableExceptions = true;
 	}
 }
