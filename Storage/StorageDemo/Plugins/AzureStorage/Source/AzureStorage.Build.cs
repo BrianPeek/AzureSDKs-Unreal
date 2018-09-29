@@ -63,5 +63,6 @@ public class AzureStorage : ModuleRules
 		});
 
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+		bEnableExceptions = true;
 	}
 }

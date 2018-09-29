@@ -5,8 +5,12 @@
 #include "Components/TextRenderComponent.h"
 #include "Engine/World.h"
 
+#pragma warning(push)
+#pragma warning(disable:4577)
+#pragma warning(disable:4530)
 #include "was/storage_account.h"
 #include "was/table.h"
+#pragma warning(pop)
 
 #define LOCTEXT_NAMESPACE "PuzzleBlockGrid"
 
@@ -61,9 +65,10 @@ void AStorageDemoBlockGrid::BeginPlay()
 	ScoreText->SetText(FText::Format(LOCTEXT("ScoreFmt", "{0}: {1}"), FText::FromString(uuid.c_str()), FText::AsNumber(Score)));
 }
 
-
 void AStorageDemoBlockGrid::AddScore()
 {
+	//FGenericPlatformMisc::SetCrashHandler(CrashHandler);
+
 	// Increment score
 	Score++;
 
