@@ -9,5 +9,6 @@ public class StorageDemoTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		ExtraModuleNames.Add("StorageDemo");
+		bForceEnableExceptions = true; 
 	}
 }

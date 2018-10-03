@@ -10,9 +10,9 @@
 	"DocsURL": "https://aka.ms/unreal-storage-docs",
 	"MarketplaceURL": "",
 	"SupportURL": "",
+	"EngineVersion": "4.18.0",
 	"CanContainContent": true,
-	"IsBetaVersion": false,
-	"Installed": false,
+	"Installed": true,
 	"Modules": [
 		{
 			"Name": "AzureStorage",

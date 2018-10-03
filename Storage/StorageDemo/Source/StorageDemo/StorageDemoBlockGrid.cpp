@@ -6,8 +6,7 @@
 #include "Engine/World.h"
 
 #pragma warning(push)
-#pragma warning(disable:4577)
-#pragma warning(disable:4530)
+#pragma warning(disable:4577 4530)
 #include "was/storage_account.h"
 #include "was/table.h"
 #pragma warning(pop)
