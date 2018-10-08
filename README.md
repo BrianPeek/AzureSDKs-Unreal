@@ -2,7 +2,7 @@
 
 This is a series of experimenal Unreal SDKs, samples, and documentation for using [Azure Services](https://aka.ms/azfreegamedev) with Unreal Engine 4.17 or greater.
 
-Today, we have support for the following SDK:
+Today, we have support for:
 
 ## [Azure Storage](https://aka.ms/azstoragedocsgamedev)
 
