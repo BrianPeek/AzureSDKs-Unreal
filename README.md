@@ -7,4 +7,4 @@ Today, we have support for:
 ## [Azure Storage](https://aka.ms/azstoragedocsgamedev)
 
 * [Documentation](https://aka.ms/unreal-storage-docs)
-* [Storage SDK Plugin](https://github.com/BrianPeek/AzureSDKs-Unity/releases)
+* [Storage SDK Plugin](https://github.com/BrianPeek/AzureSDKs-Unreal/releases)
